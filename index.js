@@ -267,3 +267,230 @@
 // }
 
 // Promises Concept
+
+// const items = ["rice", "vegetables", "masalas"]
+//  const check = new Promise((resolve,reject)=> {
+
+//   if(items.includes("rice") && items.includes("masalass"))
+//   {
+//     resolve("Fried Rice Ready")
+//   }
+//   else
+//   {
+//     reject("Not available items to make Fried Rice")
+//   }
+
+// })
+
+// check.then((myFriedRice)=> {
+//   console.log("Lets eat " + myFriedRice);
+// });
+
+
+// const items = [1,2,3,4]
+
+// console.log(items.length);
+
+// items.push(5)
+
+// items.unshift(0)
+
+// items.splice(1)
+
+// console.log(items);
+
+// items.splice(1,1)
+
+// const getitem = items.pop()
+// console.log(getitem);
+// console.log(items);
+
+// const getItem = items.shift()
+// console.log(getItem);
+// console.log(items);
+// let i = 1;
+// do
+// {
+    
+//     console.log(i);
+//     i++;
+// }while(i != 10)
+
+// for(let i=0;i< items.length;i++)
+// {
+//     console.log(items[i]);
+// }
+
+// let myName = "vijay"
+
+// console.log(myName[2]);
+
+// console.log(myName);
+
+// console.log(myName.length);
+
+// console.log(myName.toLowerCase());
+// console.log(myName.toUpperCase());
+// console.log(myName.toLocaleUpperCase());
+
+
+// console.log(myName.indexOf('a'));
+
+// var answer = myName.match('vi')
+// console.log(answer);
+
+// let a = myName.replace("vijay","viju")
+// console.log(a);
+// console.log(myName);
+
+// let ans = myName.search("j")
+
+// console.log(ans);
+
+// const actors = [
+//     {
+//         actor : "actor 1",
+//         salary : 100
+//     },
+//     {
+//         actor : "actor 2",
+//         salary : 200
+//     },
+//     {
+//         actor : "actor 3",
+//         salary : 300
+//     }
+// ]
+
+// for(i=0;i<actors.length;i++)
+// {
+//     console.log(actors[i].actor);
+//     console.log(actors[i].salary);
+// }
+
+// const answer = actors.filter((items)=> {
+//     return items.salary >= 200
+// })
+
+// console.log(answer);
+
+// let answer = actors.reduce((acc,items)=> {
+//     return acc + items.salary
+// })
+
+// console.log(answer);
+
+// const answer = actors.map((items)=> {
+//     return `${[items.actor]} ${items.actor} ${items.salary}`
+// })
+
+// console.log(answer);
+
+// Dom Manipulation
+
+// console.log(window);
+
+// const answer = document.getElementById("screen")
+
+// const buttons = document.querySelectorAll("button")
+
+// for(items of buttons)
+// {
+//     items.addEventListener('click', (e) => {
+//         value = e.target.innerText
+        
+//         if(value === "=")
+//         {
+//             answer.value = eval(answer.value)
+//         }
+//         answer.value += value
+//     })
+// }
+
+// "use strict"
+// name = "vijay"
+
+// console.log(name);
+
+// name ="vipul"
+
+// console.log(name);
+
+
+// console.log(3**3);
+
+// Let Keyword
+
+// value = 1;
+
+// function getvalue(value)
+// {
+//     value = 10;
+//     console.log(value);
+// }
+
+// getvalue()
+// console.log(value);
+
+// Trim Method
+
+
+// const names = "     vijay koladaa            "
+// console.log(names.length);
+// const changedname = names.trim()
+
+// console.log(changedname);
+// console.log(changedname.length);
+// console.log(names.length);
+
+// const names= "VIJAY"
+
+// console.log(names.toUpperCase());
+// console.log(names.toLowerCase());
+
+// const names = "vijay"
+
+// console.log(typeof names.split());
+
+// console.log(names.slice(0,4));
+// console.log(names.slice(1));
+
+// let no = 1;
+// let name = "vijay"
+// let age = 10.5
+// let isMarried = false
+// let hobbies = ["eat","code"]
+// let good;
+// let mind = null
+
+
+// console.log(typeof no,typeof name, typeof age,typeof isMarried,typeof hobbies,typeof good,typeof mind);
+
+// Number To String
+
+// let value = 10
+// let newValue = value.toString()
+// console.log(typeof newValue );
+// console.log(typeof value );
+
+// String To Number
+
+// let a = +'ab'
+
+// console.log(a);
+
+// String Concat
+
+// let firstname = +"10"
+// let lastname = +"20"
+
+// console.log(firstname + lastname);
+
+// Template String
+
+let firstname = "vijay"
+let lastname = "koladara"
+let age = 23
+
+// console.log("My First Name is " + firstname + " And My Last Name is : " + lastname + "My Age is : " + age);
+console.log(`My Name is ${firstname} and My Last Name is ${lastname} And My Age is ${age}`);
