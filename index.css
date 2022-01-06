@@ -1,0 +1,20 @@
+.main{
+    background-color: red;
+}
+
+.main ul {
+    display: flex;
+}
+
+.main ul li{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: auto;
+    color: white;
+}
+
+.main ul li:hover{
+    background-color: yellow;
+    color: black;
+}

@@ -488,9 +488,140 @@
 
 // Template String
 
-let firstname = "vijay"
-let lastname = "koladara"
-let age = 23
+// let firstname = "vijay"
+// let lastname = "koladara"
+// let age = 23
 
 // console.log("My First Name is " + firstname + " And My Last Name is : " + lastname + "My Age is : " + age);
-console.log(`My Name is ${firstname} and My Last Name is ${lastname} And My Age is ${age}`);
+// console.log(`My Name is ${firstname} and My Last Name is ${lastname} And My Age is ${age}`);
+
+// const name
+// let name = null; 
+// console.log(typeof name);
+// let check = null
+
+// console.log(check);
+
+// console.log(Number.MIN_SAFE_INTEGER);
+// console.log(Number.MIN_VALUE);
+// console.log(Number.POSITIVE_INFINITY);
+// console.log(Number.NEGATIVE_INFINITY);
+
+// BigInt
+
+// const number = BigInt(122222222222222222222222222222222222222)
+
+// console.log(typeof number);
+
+// const num1 = BigInt(123511111111111515151515151515)
+// const num1 = 12
+// const num2 = 456
+
+// console.log(num1 + num2);
+
+// Boolean & Comparison Operators
+
+
+
+// const num1 = "3"
+// const num2 = 3
+
+// console.log(num1 === num2.toString());
+
+// != vs !==
+
+// let num = 10
+// let num1 = 2
+// while(num1!==num)
+// {
+
+//     console.log("i am");
+//     num1++
+// }
+
+// console.log(while());
+
+// Ternary Operator
+
+// let myName = "vijaysss"
+// let age = myName.length == 5 ? 23 : 18
+
+// console.log(age);
+
+// And Or Operator
+
+// let name = "vijay"
+// let age = 233
+
+// if(name == "vijay" && age ==23)
+// {
+//     console.log("YEs I am Vijay");
+// }
+// else
+// {
+//     console.log("You Are Not Vijay");
+// }
+
+// let name = "viju"
+// let age = 23
+// if(name == "vijay" || "viju")
+// {
+//     if(age == 23)
+//     {
+//         console.log("You Matched Vijay");
+//     }
+//     else
+//     {
+//         console.log("Age Not Matched");
+//     }
+// }
+// else
+// {
+//     console.log("name not matched");
+// }
+
+// 
+// if else
+// const age = 17
+// if(age == 18)
+// {
+//     console.log("You Can Vote.");
+// }
+// else
+// {
+//     console.log("You Cannot Vote");
+// }
+
+// let no = 5;
+// for(let i = 1;i<= 10;i++)
+// {
+//     ans = no * i
+//     console.log(`${no}* ${i} = ${ans}`);
+
+// }
+// let i = 1
+// do
+// {
+    
+//     ans = no * i
+//     console.log(`${no} * ${i} = ${ans}`);
+//     i++
+// }while(i!=10);
+
+// let  i = window.prompt("Enter Value")
+
+// switch(+i)
+// {
+//     case(5):
+//     console.log("Wow! 5 is Lucky Number");
+//     break;
+
+//     case(6):
+//     console.log("Bed Bro.. 6 Is Good");
+//     break;
+
+//     default :
+//     console.log("You Are Loser");
+// }
+
+Start Array
