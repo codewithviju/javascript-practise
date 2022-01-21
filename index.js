@@ -259,7 +259,6 @@
 
 // console.log("Script End");
 
-
 // function changeFirst()
 // {
 //   const value = document.getElementById("first").value
@@ -286,7 +285,6 @@
 //   console.log("Lets eat " + myFriedRice);
 // });
 
-
 // const items = [1,2,3,4]
 
 // console.log(items.length);
@@ -311,7 +309,7 @@
 // let i = 1;
 // do
 // {
-    
+
 //     console.log(i);
 //     i++;
 // }while(i != 10)
@@ -332,7 +330,6 @@
 // console.log(myName.toLowerCase());
 // console.log(myName.toUpperCase());
 // console.log(myName.toLocaleUpperCase());
-
 
 // console.log(myName.indexOf('a'));
 
@@ -398,7 +395,7 @@
 // {
 //     items.addEventListener('click', (e) => {
 //         value = e.target.innerText
-        
+
 //         if(value === "=")
 //         {
 //             answer.value = eval(answer.value)
@@ -416,7 +413,6 @@
 
 // console.log(name);
 
-
 // console.log(3**3);
 
 // Let Keyword
@@ -433,7 +429,6 @@
 // console.log(value);
 
 // Trim Method
-
 
 // const names = "     vijay koladaa            "
 // console.log(names.length);
@@ -462,7 +457,6 @@
 // let hobbies = ["eat","code"]
 // let good;
 // let mind = null
-
 
 // console.log(typeof no,typeof name, typeof age,typeof isMarried,typeof hobbies,typeof good,typeof mind);
 
@@ -496,7 +490,7 @@
 // console.log(`My Name is ${firstname} and My Last Name is ${lastname} And My Age is ${age}`);
 
 // const name
-// let name = null; 
+// let name = null;
 // console.log(typeof name);
 // let check = null
 
@@ -520,8 +514,6 @@
 // console.log(num1 + num2);
 
 // Boolean & Comparison Operators
-
-
 
 // const num1 = "3"
 // const num2 = 3
@@ -580,7 +572,7 @@
 //     console.log("name not matched");
 // }
 
-// 
+//
 // if else
 // const age = 17
 // if(age == 18)
@@ -602,7 +594,7 @@
 // let i = 1
 // do
 // {
-    
+
 //     ans = no * i
 //     console.log(`${no} * ${i} = ${ans}`);
 //     i++
@@ -624,4 +616,186 @@
 //     console.log("You Are Loser");
 // }
 
-Start Array
+// Start Array
+
+// const myNames = ["apple","mango","banana","cherry"]
+
+// console.log(myNames[1]);
+
+// fruits.forEach((items)=> {
+//     // console.log(items);
+// })
+
+// const list = fruits.map((items)=> {
+//     return items
+// })
+
+// console.log(list);
+//     let fruits = ["apple", "mango", "banana", "cherry","mango"]
+// let numbers = [1,2,3,4,5,6,77]
+// console.log(fruits.includes("apples"));
+// console.log(fruits.lastIndexOf("mango"));
+// console.log(fruits.indexOf("mango"));
+//    console.log(fruits.fill(",",2));
+
+// const value = fruits.filter((items)=> {
+//     return items === items.lastIndexOf("mango")
+// })
+// console.log(value);
+// console.log(fruits);
+
+// console.log(fruits.reverse());
+// console.log(numbers.reverse());
+
+//    const answer =  fruits.filter((items)=> {
+//         if(items > 1)
+//         {
+//             return -1;
+//         }
+//         else
+//         {
+//             return 1
+//         }
+//     })
+
+// console.log(numbers.sort());
+
+// const aboutMe = [
+//     {
+//         name : "vijay"
+//     },
+//     {
+//         name : "abc"
+//     },
+//     {
+//         name : "xyz"
+//     }
+//     ,{
+//         name : "bcf"
+//     }
+// ]
+
+// const answer = aboutMe.sort((a,b)=> {
+//     if(a.name > b.name)
+//     {
+//         return 1
+//     }
+//     else
+//     {
+//         return -1
+//     }
+// })
+
+// console.log(answer);
+
+// console.log(aboutMe.sort((a,b) => a.name < b.name ? -1 : 1));
+// console.log(aboutMe.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0)));
+
+// const answer = aboutMe.filter((items)=>{
+//     if(items.name < 1)
+//     {
+//         return 1
+//     }
+//     else
+//     {
+//         return -1
+//     }
+// })
+
+// console.log(answer);
+
+// let array1 = ["item1", "item2"];
+
+// let array2 = array1.slice(0).concat("item3","item4","item5")
+
+// let array2 = [...array1,"item3","item4"]
+
+// console.log(array2);
+
+// let obj = [];
+
+// let obj2 = [
+//   {
+//     id: 1,
+//     name: "vijay",
+//   },
+//   {
+//     id: 2,
+//     name: "vipul",
+//   },
+// ];
+
+// obj2.map((items) => {
+//   obj = { ...obj, [items.id]: items.id }, {[items.name] : items.name};
+// });
+
+// console.log(obj);
+
+// var name = "vijay"
+
+// function showName()
+// {
+//     //  name = "vipul"
+//     // console.log(name);
+// }
+
+// showName();
+// console.log(name);
+
+// Generators
+
+// function* numbersGen()
+// {
+
+//     yield "vijay";
+//     yield  "vipul";
+//     yield "gopal";
+//     yield "vikram";
+//     yield "nilesh";
+
+// }
+
+// const answer = numbersGen()
+
+// for (const iterator of answer) {
+//     console.log(iterator);
+// }
+
+// document.getElementById("value").addEventListener("keyup", function () {
+//   document.body.style.backgroundColor = document.getElementById("value").value;
+//   console.log(document.URL);
+// });
+
+// console.log(document.body.style);
+
+// const heading = document.getElementById("answer");
+
+// console.log(heading);
+
+// Query Selector
+
+// const demo = document.querySelector(".header");
+// console.log(demo.removeChild("#heading"));
+
+// const main = document.querySelector(".main");
+// const main = document.querySelectorAll(".main");
+
+// const demo = document.getElementById("demo");
+
+// console.log(demo.getAttribute("id"));
+
+// demo.setAttribute("id", "hello");
+// console.log(demo.getAttribute("id"));
+
+// const answer = document.getElementsByClassName("main");
+// console.log(answer[0]);
+
+// Asynchronous Javascript
+
+console.log("first");
+
+setTimeout(() => {
+  console.log("i am from timeout");
+}, 3000);
+
+console.log("second");
